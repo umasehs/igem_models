@@ -5,6 +5,8 @@ I have two trained models here so far.
 1. activator_model predicts whether CRP will act as an activator or as a repressor on some promoter.
 2. bindingsite_model predicts where the CRP-binding site is within a given sequence.
 
+Look at ```train.py``` in each folder to see the important code. The classifier itself is saved as ```clf.joblib``` in each folder.
+
 ## More Details
 
 activator_model uses 10 hand-selected features from the 390ish features provided by PredCRP. On the most recent version of RegulonDB, activator_model is much more accurate than PredCRP (__activator_model achieves 95.2% training accuracy, 93.7% validation accuracy, and 100% test accuracy on the 23 sequences__, while PredCRP achieves ~87% on the newest RegulonDB and 22/23 on the test sequences).
