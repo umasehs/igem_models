@@ -5,7 +5,7 @@ I have two trained models here so far.
 1. activator_model predicts whether CRP will act as an activator or as a repressor on some promoter.
 2. bindingsite_model predicts where the CRP-binding site is within a given sequence.
 
-Look at ```train.py``` in each folder to see the important code. The classifier itself is saved as ```clf.joblib``` in each folder.
+Look at ```train.py``` in each folder to see the important code. Go to ```test/test.py``` in the activator_model folder to just start using it. The classifier itself is saved as ```clf.joblib``` in each folder.
 
 ## More Details
 
